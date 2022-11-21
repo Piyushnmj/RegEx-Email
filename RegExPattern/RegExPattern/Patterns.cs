@@ -12,7 +12,8 @@ namespace RegExPattern
         public void ValidateEMail(string eMail)
         {
             // Part1: abc is mandatory
-            var regex = new Regex(@"^([a][b][c])");
+            // Part2: ensure @ and validate mandatory part bridgelabz
+            var regex = new Regex(@"^([a][b][c])\@([b][r][i][d][g][e][l][a][b][z])");
             bool matchRes = regex.IsMatch(eMail);
             if (matchRes == true)
             {
