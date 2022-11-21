@@ -9,7 +9,7 @@ namespace RegExPattern
 {
     public class Patterns
     {
-        public void ValidatePinCode(string eMail)
+        public void ValidateEMail(string eMail)
         {
             // abc is mandatory
             var regex = new Regex(@"^([a][b][c])");
