@@ -9,7 +9,7 @@ namespace RegExPattern
 {
     public class Patterns
     {
-        public void ValidatePinCode(string eMail)
+        public void ValidateEMail(string eMail)
         {
             // Part1: abc is mandatory
             // Part2: ensure @ and validate mandatory part bridgelabz
