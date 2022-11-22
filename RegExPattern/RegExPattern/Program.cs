@@ -6,8 +6,7 @@
         {
             Console.WriteLine("Welcome to Regular Expressions");
 
-            Console.Write("Enter an EMail Address: ");
-            Console.Write("(Format for EMail Address ==> abc.xyz@bridgelabz.co.in, where abc, bridgelabz and co are mandatory): ");
+            Console.Write("\nEnter an EMail Address: ");
             string userInput = Console.ReadLine();
 
             Patterns objPattern = new Patterns();
